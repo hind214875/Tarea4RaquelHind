@@ -13,6 +13,16 @@ public class PruebaEscuela {
     
     public static void main(String[] args) {
         
+        //Creacion de objetos
+        Escuela escuela1 = new Escuela("CEIP San Pedro de Alcantara","Calle Caravaca, 1");
+        
+        Escuela escuela2 = new Escuela("Colegio Fuente Nueva", "Calle Amor, 2");
+        
+        //Impresion por consola
+        System.out.println(escuela1.toString());
+        
+        System.out.println(escuela2.toString());
+        
     }
     
 }
