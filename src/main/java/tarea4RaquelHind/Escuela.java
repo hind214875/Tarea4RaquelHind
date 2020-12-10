@@ -42,6 +42,11 @@ public class Escuela {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    
+    //metodo ToString
+
+    @Override
+    public String toString() {
+        return "Escuela{" + "nombre=" + nombre + ", direccion=" + direccion + '}';
+    }
     
 }
