@@ -10,9 +10,16 @@ package tarea4RaquelHind;
  * @author Hind
  */
 public class Escuela {
+
     private String nombre;
     private String direccion;
-    public Escuela(){
-        
+
+    public Escuela() {
+       
+    }
+
+    public Escuela(String nombre, String direccion) {
+        this.nombre = nombre;
+        this.direccion = direccion;
     }
 }
